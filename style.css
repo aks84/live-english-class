@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  mask: 0;
+}
+
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper a:hover {
+  color: skyblue;
+}
+
+.header__h2 {
+  background-color: white;
+  padding: 20px;
+}
+
+.main__qs__snap {
+  text-align: center;
+  background-color: azure;
+  padding: 5px;
+  display: inline-block;
+}
+
+.main__qs__p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.live-tutor li{
+  list-style:none;
+
+}
+
+
+#english-tutors{
+   margin: 0 auto;
+   width: 60%;
+}
+
+.live-tutor {
+    position: relative;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.live-tutor li img {
+    border-radius: 50%;
+    padding-left: 10px;
+    width:80%;
+}
+
+.live-tutor .tutor-img{
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+
+.live-tutor .tutor-cta{
+  padding: 10px 20px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+.live-tutor .tutor-cta:hover{
+  color:darkgray;
+}
+
+.live-tutor .about-tutor p{
+  
+  
+}
+
+
+.faqs {
+  background-color: azure;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.faqs__box details {
+  text-align: left;
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.footer__contact {
+  float: left;
+}
+
+.footer__links {
+  float: right;
+  text-align: initial;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+.footer__links li {
+  margin-bottom: 10px;
+}
+
+.footer__links a:hover {
+  color: darkolivegreen;
+}
